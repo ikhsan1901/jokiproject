@@ -64,6 +64,8 @@ footer {
   margin-top: 50px;
   color: #000000;
 }
+
+/* Responsiveness for small screens */
 @media (max-width: 768px) {
   .nav-links {
     flex-direction: column;
