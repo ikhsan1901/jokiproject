@@ -1,5 +1,4 @@
 <template>
-<!--End of Tawk.to Script-->
   <div class="home">
     <div class="hero-section">
       <div class="hero-content">
@@ -99,6 +98,23 @@
   margin-bottom: 0.5rem;
 }
 
+/* Responsiveness for small screens */
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+  }
+
+  .hero-image {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .hero-text {
+    max-width: 100%;
+    text-align: center;
+  }
+}
 </style>
 
 <script>
