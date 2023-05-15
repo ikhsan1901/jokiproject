@@ -64,6 +64,16 @@ footer {
   margin-top: 50px;
   color: #000000;
 }
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .nav-link {
+    margin: 10px 0;
+  }
+}
 </style>
 
 <script>
