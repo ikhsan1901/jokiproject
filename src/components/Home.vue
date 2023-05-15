@@ -105,7 +105,7 @@ export default {
   name: 'Home',
   data() {
     return {
-      heroImage: 'jokiproject/src/assets/2.png',
+      heroImage: 'https://i.postimg.cc/wBMw4WXF/2.png',
       heroTitle: 'Joki Tugasku',
       heroDescription: 'Lebih mudah dan cepat bersama Joki Tugasku!',
       heroButton: 'Pesan Sekarang'
