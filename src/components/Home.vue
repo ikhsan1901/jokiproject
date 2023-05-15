@@ -109,7 +109,7 @@ export default {
       heroTitle: 'Joki Tugasku',
       heroDescription: 'Lebih mudah dan cepat bersama Joki Tugasku!',
       heroButton: 'Pesan Sekarang'
-    }
+    };
   }
-}
+};
 </script>
